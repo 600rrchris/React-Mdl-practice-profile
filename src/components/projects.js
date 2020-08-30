@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
-
+import {Tabs, Tab} from 'react-mdl'
 
 
 class Projects extends Component {
+    constructor(props){
+        super(props);
+        this.state = { activeTab: 0 }
+    }
     render() {
         return(
-            <div>
-                <h1>
-                    Projects Page
-                </h1>
+            <div className="category-tabs">
+                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+                    <Tab>React</Tab>
+                    <Tab>Python</Tab>
+                    <Tab>MongoDB</Tab>
+                </Tabs>
             </div>
         )
     }
