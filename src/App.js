@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import 'react-mdl/extra/material.css';
-import 'react-mdl/extra/material.js';
 import { Navigation, Header, Drawer, Content, Layout } from 'react-mdl'
 
 
