@@ -10,19 +10,20 @@ class Projects extends Component {
     toggleCatergories() {
          if(this.state.activeTab === 0) {
         return(
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center/cover'}}>
-                    React Project #1
+                       /* project 1 */
+             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center/cover'}}>
+                           React Project #1
                 </CardTitle>
-                <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </CardText>
-                <CardActions border>
+                   <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   </CardText>
+                   <CardActions border>
                     <Button colored>Github</Button>
                     <Button colored>CodePen</Button>
                     <Button colored>LiveDemo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
+                   </CardActions>
+                 <CardMenu style={{color: '#fff'}}>
+                     <IconButton name="share" />
                 </CardMenu>
             </Card>
         )
@@ -46,14 +47,14 @@ class Projects extends Component {
                     <Tab>Python</Tab>
                     <Tab>MongoDB</Tab>
                 </Tabs>
-                <section className="projects-grid">
+                
                     <Grid className="projects-grid">
                         <Cell col={12}>
         <div className="content">{ this.toggleCatergories() }</div>
                         </Cell>
                     </Grid>
-                {this.toggleCatergories()}
-                </section>
+                
+                
             </div>
         )
     }
