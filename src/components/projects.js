@@ -30,7 +30,7 @@ class Projects extends Component {
                             {/* Project 2 */}
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center/cover'}}>
-                           React Project #1
+                           React Project #2
                 </CardTitle>
                    <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                    </CardText>
@@ -47,7 +47,7 @@ class Projects extends Component {
                             {/* Project 3 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center/cover'}}>
-                        React Project #1
+                        React Project #3
              </CardTitle>
                 <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 </CardText>
@@ -123,10 +123,10 @@ class Projects extends Component {
 <div className="projects-grid">
                        {/* project 1 */}
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
+               <CardTitle style={{color: 'black', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
                            MongoDB Project #1
                 </CardTitle>
-                   <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   <CardText >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                    </CardText>
                    <CardActions border>
                     <Button colored>Github</Button>
@@ -139,8 +139,8 @@ class Projects extends Component {
             </Card>
                             {/* Project 2 */}
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-               <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
-                           React Project #1
+               <CardTitle style={{color: 'black', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
+                           MongoDB Project #2
                 </CardTitle>
                    <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                    </CardText>
@@ -156,8 +156,8 @@ class Projects extends Component {
             
                             {/* Project 3 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
-                        React Project #1
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png) center/cover'}}>
+                        MongoDB Project #3
              </CardTitle>
                 <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 </CardText>
