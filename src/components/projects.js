@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Tabs, Tab, Grid, Cell} from 'react-mdl'
+import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl'
 
 
 class Projects extends Component {
@@ -10,7 +10,21 @@ class Projects extends Component {
     toggleCatergories() {
          if(this.state.activeTab === 0) {
         return(
-            <div><h1> this is react</h1></div>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png) center/cover'}}>
+                    React Project #1
+                </CardTitle>
+                <CardText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </CardText>
+                <CardActions border>
+                    <Button colored>Github</Button>
+                    <Button colored>CodePen</Button>
+                    <Button colored>LiveDemo</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
         )
     } else if(this.state.activeTab === 1) {
         return(
