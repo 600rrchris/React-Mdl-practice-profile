@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl'
+import { Grid, Cell } from 'react-mdl';
+import Education from './education'
+import Experience from './experience'
+import Skills from './skills';
 
 
 class Resume extends Component {
@@ -34,7 +37,58 @@ class Resume extends Component {
                  </Cell>
                  <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
-                    
+
+                    <Education 
+                    startYear={2000}
+                    endYear={2006}
+                    schoolName="My University"
+                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+                    />
+
+                <Education 
+                    startYear={2007}
+                    endYear={2010}
+                    schoolName="My Second University"
+                    schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+                    />
+                    <hr style={{borderTop: '3px solid #e22947'}} />
+                    <h2>Experience</h2>
+                    <Experience  
+                    startYear={2010}
+                    endYear={2015}
+                    jobName="First Job"
+                    jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
+                    />
+                    <Experience  
+                    startYear={2015}
+                    endYear={2017}
+                    jobName="Second Job"
+                    jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
+                    />
+                    <Experience  
+                    startYear={2017}
+                    endYear="Current"
+                    jobName="Third Job"
+                    jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the "
+                    />
+                    <hr style={{borderTop: '3px solid #e22947'}} />
+                    <h2>Skills</h2>
+                    <Skills 
+                    skill="Javascript"
+                    progress={100}
+                    />
+                    <Skills 
+                    skill="React.Js"
+                    progress={30}
+                    />
+                    <Skills 
+                    skill="HTML"
+                    progress={86}
+                    />
+                    <Skills 
+                    skill="Css"
+                    progress={90}
+                    />
                  </Cell>
              </Grid>
             </div>
